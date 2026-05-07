@@ -16,6 +16,15 @@ Designed to improve:
 - missing KB detection
 - operational security reporting
 
+# Sample Outputs
+
+Generated outputs include:
+- JSON reports
+- CSV exports
+- HTML operational reports
+- Defender visibility summaries
+- Missing KB analysis reports
+
 <img width="942" height="1337" alt="Capture d&#39;écran 2026-04-17 091045" src="https://github.com/user-attachments/assets/c9d645d7-5822-45a2-974d-eacb17f93f05" />
 
 # Why I Built This
@@ -28,6 +37,16 @@ This project was designed to:
 - identify unmanaged or partially visible endpoints
 - improve operational reporting
 - support security and helpdesk workflows
+
+# Operational Focus
+
+This project was designed with a practical operational mindset:
+- security visibility
+- endpoint monitoring
+- Defender operational analysis
+- helpdesk reporting
+- device correlation
+- compliance visibility
 
 # Architecture
 
