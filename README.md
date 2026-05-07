@@ -2,6 +2,15 @@
 
 PowerShell-based security posture monitoring and device correlation platform for Microsoft 365 environments.
 
+# Operational Use Cases
+
+- Identify unmanaged or partially visible devices
+- Detect Defender inactive endpoints
+- Improve endpoint visibility across platforms
+- Support helpdesk investigations
+- Prioritize risky operational cases
+- Improve Microsoft 365 security posture visibility
+
 Correlates security and management data from:
 - Microsoft Entra ID
 - Microsoft Intune
@@ -228,9 +237,3 @@ Cybersecurity Analyst focused on:
 - Entra ID / Intune
 - Security Operations
 - PowerShell Automation
-
-# Security Policy
-
-This project is intended for educational and authorized security monitoring purposes only.
-Do not use this project against systems you do not own or have permission to assess.
-If you discover a security issue within this repository, please report it responsibly.
