@@ -18,13 +18,6 @@ Designed to improve:
 
 # Sample Outputs
 
-Generated outputs include:
-- JSON reports
-- CSV exports
-- HTML operational reports
-- Defender visibility summaries
-- Missing KB analysis reports
-
 <img width="942" height="1337" alt="Capture d&#39;écran 2026-04-17 091045" src="https://github.com/user-attachments/assets/c9d645d7-5822-45a2-974d-eacb17f93f05" />
 
 # Why I Built This
@@ -50,19 +43,43 @@ This project was designed with a practical operational mindset:
 
 # Architecture
 
-Entra ID
-   │
-Intune
-   │
-Trend Micro
-   │
-Microsoft Defender
-   ▼
-Correlation Engine
-   ▼
-Risk Engine
-   ▼
-Reports / JSON / HTML Mail
+```text
++-------------------+
+|   Microsoft Entra |
++-------------------+
+           |
++-------------------+
+|   Microsoft Intune|
++-------------------+
+           |
++-------------------+
+| Microsoft Defender|
++-------------------+
+           |
++-------------------+
+|    Trend Micro    |
++-------------------+
+           |
+           v
++-------------------+
+| Correlation Engine|
++-------------------+
+           |
+           v
++-------------------+
+|    Risk Engine    |
++-------------------+
+           |
+           v
++-------------------+
+| Reports / Outputs |
++-------------------+
+
+Outputs:
+- HTML Reports
+- JSON Reports
+- CSV Exports
+```
 
 # Correlation Engine
 
