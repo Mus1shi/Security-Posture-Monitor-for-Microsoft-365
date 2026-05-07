@@ -1,8 +1,22 @@
-# Security Device Monitor for Microsoft 365
+# Security Posture Monitor for Microsoft 365
 
-A modular PowerShell-based security posture monitoring and device correlation project designed for modern Microsoft 365 environments.
+PowerShell-based security posture monitoring and device correlation platform for Microsoft 365 environments.
 
-This public repository demonstrates how to collect, normalize, correlate, score, and report device security data across multiple sources in a clean and maintainable way.
+## Correlates data from:
+- Microsoft Entra ID
+- Microsoft Intune
+- Microsoft Defender
+- Trend Micro
+
+## Designed to improve:
+- endpoint visibility
+- BYOD detection
+- compliance monitoring
+- Defender operational analysis
+- missing KB visibility
+- security reporting
+
+<img width="942" height="1337" alt="Capture d&#39;écran 2026-04-17 091045" src="https://github.com/user-attachments/assets/c9d645d7-5822-45a2-974d-eacb17f93f05" />
 
 ## Project Purpose
 
@@ -230,7 +244,6 @@ That allows the project to remain:
 
 ## Current Public Architecture
 
-```text
 Security-Posture-Monitor-for-Microsoft-365/
 │
 ├── BYOD_Device_Monitor.ps1
@@ -262,6 +275,7 @@ Security-Posture-Monitor-for-Microsoft-365/
 │
 └── frontend/
     └── (future public UI / dashboard)
+
 
 ## Public Data Flow
 
@@ -510,8 +524,8 @@ The public version is intended to run in demo mode using sanitized sample data.
 
 ### Example entry point
 
-```powershell
 .\BYOD_Device_Monitor.ps1
+
 or
 
 .\src\Main.ps1
