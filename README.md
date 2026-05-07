@@ -114,6 +114,20 @@ The platform classifies devices based on:
 ![Microsoft Graph](https://img.shields.io/badge/Microsoft-Graph-blue)
 ![Microsoft Defender](https://img.shields.io/badge/Microsoft-Defender-green)
 
+# Project Status
+
+Current state:
+- Core platform completed
+- Defender integration operational
+- Risk scoring implemented
+- Reporting operational
+- Demo/public version available
+
+Current focus:
+- dashboard integration
+- operational reliability
+- reporting improvements
+
 # Planned Improvements
 
 - Web dashboard integration
@@ -123,7 +137,17 @@ The platform classifies devices based on:
 - Real-time alerting
 - Multi-tenant support
 ---
+# Demo Mode
 
+A public demo mode is available using anonymized sample datasets.
+
+The demo mode simulates:
+- Entra ID devices
+- Intune devices
+- Defender signals
+- Trend Micro visibility
+- Risk scoring
+- HTML reporting
 
 ## Important Security Note
 
@@ -159,3 +183,18 @@ real-world usefulness
 Microsoft ecosystem relevance
 portfolio credibility
 progression toward security / automation / cloud-oriented roles
+
+# Author
+
+Cybersecurity Analyst focused on:
+- Microsoft Security
+- Endpoint Visibility
+- Entra ID / Intune
+- Security Operations
+- PowerShell Automation
+
+# Security Policy
+
+This project is intended for educational and authorized security monitoring purposes only.
+Do not use this project against systems you do not own or have permission to assess.
+If you discover a security issue within this repository, please report it responsibly.
